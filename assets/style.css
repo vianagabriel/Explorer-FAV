@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+background-image: url('../images/mountains-universe-1\ 1.png');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+
+color: aliceblue;
+}
+
+nav  {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 3.2rem; 
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+  font-size: 2.1rem ;
+  cursor: pointer;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  transition: 400ms;
+}
+
+nav a:hover{
+ transform: scale(1.1); 
+ 
+ 
+}
+.hide{
+  display: none;
+}
+.home{
+ margin-inline: 50rem;
+ margin-block: 20rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+ 
+}
+.home h1{
+  margin-bottom: 2.4rem;
+  font-size: 4rem;
+  min-width: 40rem;
+  text-align: center;
+}
+.home a{
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding-inline: 3.2rem;
+  padding-block: 1.2rem;
+  transition: 400ms;
+}
+
+.home a:hover{
+  transform: scale(1.1);
+}
+

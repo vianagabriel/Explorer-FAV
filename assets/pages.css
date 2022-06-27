@@ -1,0 +1,42 @@
+body{
+  background-image: url('../images/mountains-universe-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+}
+
+
+.universo{
+  margin-inline: 12rem;
+  margin-block: 15rem;
+}
+
+.universo h1{
+  font-size: 4rem;
+  margin-bottom: 1.6rem;
+}
+
+.universo p{
+  max-width: 64rem;
+  font-size: 1.8rem;
+  line-height: 180%
+}
+.errorpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 50rem;
+  margin-top: 15rem;
+}
+.error404{
+   margin-bottom: 2.5rem;
+   font-size: 10rem;
+}
+
+.error{
+  font-size: 3.2rem;
+  color: rgb(236, 66, 66);
+}
+     

@@ -1,0 +1,20 @@
+body{
+  background-image: url('../images/mountains-universe-3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+}
+.exploracao{
+  margin-inline: 12rem;
+  margin-block: 15rem;
+}
+.exploracao h1{
+  font-size: 4rem;
+  margin-bottom: 1.6rem;
+}
+.exploracao p{
+  max-width: 64rem;
+  font-size: 1.8rem;
+  line-height: 180%
+}
